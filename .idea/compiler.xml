@@ -7,11 +7,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="creational_patterns" />
+        <module name="observers" />
         <module name="adapter" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="adapter" target="16" />
       <module name="Creational patterns" target="16" />
     </bytecodeTargetLevel>
   </component>
