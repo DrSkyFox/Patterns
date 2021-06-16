@@ -1,4 +1,4 @@
-package usermap;
+package persists;
 
 public class User {
 

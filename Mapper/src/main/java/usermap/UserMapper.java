@@ -1,5 +1,7 @@
 package usermap;
 
+import persists.User;
+
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
@@ -15,7 +17,7 @@ public class UserMapper {
         this.connection = connection;
     }
 
-    public HashMap<Long,User> findAllUsers() {
+    public HashMap<Long, User> findAllUsers() {
         HashMap<Long, User> users = new HashMap<Long, User>();
         try {
             PreparedStatement statement = this.connection.prepareStatement("select  id, age, name from users");
